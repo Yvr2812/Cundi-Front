@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-image: url("src/assets/faca4.jpg");
+  background-size: cover; 
+  background-position: center; 
+  font-family: Arial, sans-serif;
+  height: 100vh; 
+  overflow: hidden; 
+  position: relative; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura para centrar en toda la ventana */
+}
+
+.row {
+  width: 100%; 
+  display: flex;
+  justify-content: center; /* Centra la fila horizontalmente */
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; 
+  width: 400px; /* Establece un ancho fijo para el formulario */
+  /* En lugar de usar max-width y width en porcentajes, se usa un valor fijo */
+}
+
+.card {
+  background-color: rgba(204, 217, 205, 0.7); 
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 100%; /* Asegura que no supere el ancho del contenedor */
+}
+
+.estilo-profile {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto 20px; 
+}
+
+.texto {
+  font-size: 16px;
+  color: slategray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  margin-top: 10px;
+}
+
+.btnswitch {
+  background-color: darkgreen;
+  border-radius: 30px;
+  padding: 8px 16px; 
+  border: none; 
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block; /* Asegura que el botón ocupe el espacio disponible */
+  margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+.btnswitch:hover {
+  background-color: #45a049; 
+}
+
+.col-md-8 {
+  display: none; 
+}
+
+.tamaño-imagen {
+  width: 100vw; 
+  height: 100vh; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  filter: blur(50%); 
+  z-index: 1; 
+}
+
+.padre {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column; /* Asegura que los campos se alineen verticalmente */
+}
+
+.error-message {
+  color: red; 
+  margin-bottom: 1rem; 
+}
