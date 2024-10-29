@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura completa de la ventana */
+    box-sizing: border-box;
+  }
+
+.reportar-incidencia-container {
+    margin-left: 18%; /* Reserva espacio para la barra de navegación */
+    width: 80%; /* Ajusta el ancho para ocupar el 80% del espacio */
+    padding: 20px; /* Espacio interno para el contenido */
+    box-sizing: border-box; /* Para asegurar que el padding no afecte el ancho */
+  }
+
+h2 {
+    text-align: center; /* Centra el texto */
+    font-size: 1.8rem;    /* Cambia el tamaño del texto (ajusta según necesites) */
+    font-weight: bold;  /* Hace el texto en negrita */
+    margin: 20px 0;     /* Añade un margen vertical */
+}
+
+input,
+select,
+textarea {
+    margin-top: 8px; /* Espacio entre el label y el input */
+    padding: 8px;    /* Espacio interno dentro del cuadro de entrada */
+    width: 100%;     /* Asegúrate de que los inputs ocupen todo el ancho */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+ 
+.reportar-incidencia-container input,
+.reportar-incidencia-container select,
+.reportar-incidencia-container textarea,
+.reportar-incidencia-container button {
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 8px; /* Espacio interno */
+    box-sizing: border-box; /* Evita que el padding afecte el ancho */
+  }
+  
+.reportar-incidencia-container button {
+    margin-top: 20px; /* Separación antes del botón */
+  }
+
+  /* ReportarIncidencia.css */
+
+/* Estilo general para el botón */
+button {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espacio interno: vertical y horizontal */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+button:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de crecimiento */
+}
+
+button:active {
+    transform: scale(0.95); /* Efecto de reducción al hacer clic */
+}
+/* Estilo general para los campos de entrada y select */
+input, textarea, select {
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 8px; /* Espacio interno */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 100%; /* Ancho completo */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto al pasar el mouse (hover) */
+input:hover, textarea:hover, select:hover {
+    border-color: #4CAF50; /* Cambia el color del borde al pasar el mouse */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Efecto de sombra */
+}
+
+/* Efecto al enfocarse (focus) */
+input:focus, textarea:focus, select:focus {
+    border-color: #4CAF50; /* Cambia el color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Efecto de sombra */
+    outline: none; /* Elimina el contorno predeterminado */
+}

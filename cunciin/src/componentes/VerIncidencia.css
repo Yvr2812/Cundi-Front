@@ -1,0 +1,51 @@
+h2 {
+    text-align: center; /* Centra el texto */
+    font-size: 1.5rem;    /* Cambia el tamaño del texto (ajusta según necesites) */
+    font-weight: bold;  /* Hace el texto en negrita */
+    margin: 20px 0;     /* Añade un margen vertical */
+}
+.icon-container {
+    display: flex; /* Usar flexbox para alinear las imágenes */
+    align-items: center; /* Centrar verticalmente */
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+  
+  .icon {
+    width: 20px; /* Ajusta el tamaño de las imágenes */
+    height: 20px; /* Asegúrate de que tengan el mismo tamaño */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+  }
+  .table {
+    width: 5px; /* Resta el ancho de la barra de navegación */
+    margin-left: 250px; /* Espacio a la izquierda de la tabla */
+    border-collapse: collapse; /* Eliminar espacios entre celdas */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Para aplicar el redondeo correctamente */
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+    border-bottom: 1px solid #ddd; /* Línea de separación entre filas */
+  }
+  
+  .table th {
+    background-color: #4CAF50; /* Color de fondo para encabezados */
+    color: white; /* Color del texto en encabezados */
+  }
+  
+  .table tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo al pasar el mouse sobre filas */
+  }
+  
+  .table img {
+    border-radius: 50%; /* Hacer imágenes circulares (si es necesario) */
+    width: 25px; /* Tamaño de las imágenes */
+    height: 25px; /* Tamaño de las imágenes */
+  }
+  
+  .error-message {
+    color: red; /* Color para mensajes de error */
+    margin: 10px 0; /* Margen para separar del contenido */
+  }

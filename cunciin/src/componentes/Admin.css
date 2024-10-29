@@ -1,0 +1,38 @@
+.home-administrador-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-administrador-secciones {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.seccion-incidencias, .seccion-empleados, .seccion-reportes {
+  border: 1px solid #003c00;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #003c00;
+}
+
+.btn-gestionar-incidencias, .btn-gestionar-empleados, .btn-generar-reportes {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: white;
+  background-color: #003c00;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-gestionar-incidencias:hover,
+.btn-gestionar-empleados:hover,
+.btn-generar-reportes:hover {
+  background-color: #005700;
+}

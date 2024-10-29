@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh;
+ 
+}
+
+.form-register {
+  width: 600px; /* Ancho fijo */
+  height: 45vh;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #dce2e7;
+  overflow: auto; 
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilos para los inputs y select */
+.controls {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.boton-submit{
+  display: block; /* Hace que el botón sea un bloque */
+margin: 10px auto; /* Aplica un margen automático para centrarlo */
+background-color: #0c8133; /* Color de fondo */
+color: white; /* Color del texto */
+border: none; /* Sin borde */
+padding: 10px 10px; /* Relleno */
+border-radius: 5px; /* Bordes redondeados */
+cursor: pointer; /* Cambia el cursor al pasar el ratón */
+transition: background-color 0.3s; /* Transición suave */
+width: 100%;
+
+}
+
+select.controls {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 12 12'%3E%3Cpath d='M10.293 3.293 6 7.586 1.707 3.293A1 1 0 0 0 .293 4.707l5 5a1 1 0 0 0 1.414 0l5-5a1 1 0 1 0-1.414-1.414z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+/* Estilo para el mensaje del dominio de correo */
+small {
+  display: block;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+/* Estilo para el botón */
+.botons {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botons:hover {
+  background-color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .form-register {
+    padding: 20px;
+  }
+}
